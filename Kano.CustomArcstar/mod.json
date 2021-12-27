@@ -1,0 +1,25 @@
+{
+	"Name" : "Kano's Arc Star",
+	"Description": "Custom Arc Star",
+	"Version": "1.0.0",
+	"Authors" : "Kano",
+
+	"Scripts": [
+		{
+			"Path": "kano_custom_autoprecache.gnut",
+			"RunOn": "( CLIENT || SERVER ) && MP",
+			"ClientCallback": {
+				"After": "KanoCustomPrecache"
+			},
+
+			"ServerCallback": {
+				"After": "KanoCustomPrecache"
+			}
+		},
+
+		{
+			"Path": "weapons/mp_weapon_grenade_arcstar.nut",
+			"RunOn": "( CLIENT || SERVER ) && MP",
+		}
+	]
+}

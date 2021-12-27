@@ -1,0 +1,7 @@
+untyped
+global function KanoCustomPrecache
+
+void function KanoCustomPrecache()
+{
+	PrecacheWeapon( "mp_weapon_grenade_arcstar" )
+}
