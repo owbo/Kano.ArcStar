@@ -178,7 +178,7 @@ WeaponData
 	"projectile_gravity_scale"						"2"
 
 	"projectile_visible_to_smart_ammo"				"0"
-
+	"OnProjectileCollision"							"OnProjectileCollision_weapon_grenade_emp"
 	"grenade_disc_throw"	"1"
 	"grenade_death_drop_velocity_scale"				"0.05"
 	"grenade_death_drop_velocity_extraUp"			"0.10"
@@ -221,6 +221,12 @@ WeaponData
 
 	// WeaponED Unhandled Key/Values and custom script Key/Values
 	"fire_anim_rate"  								"1"
+
+	"stick_pilot"										"1"
+	"stick_titan"										"1"
+	"stick_npc"											"1"
+
+
 
 	Mods
 	{
